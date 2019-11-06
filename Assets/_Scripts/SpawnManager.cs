@@ -11,5 +11,22 @@ public class SpawnManager : MonoBehaviour
         Instance = this;
     }
 
+    private void Start()
+    {
+        BlockGroup blockGroup = new BlockGroup(4);
+        var blocks = blockGroup.GenerateBlockGroup();
 
+        // foreach (var block in blocks)
+        // {
+        //     Instantiate(block.gameObject);
+        // }
+
+    }
+
+    public void PlaceBlock(Block block, Vector3 pos)
+    {
+
+        var newBlock = Instantiate(block.gameObject, pos, Quaternion.identity);
+        newBlock.gameObject.GetComponentInChildren<Rigidbody2D>().isKinematic = true;
+    }
 }

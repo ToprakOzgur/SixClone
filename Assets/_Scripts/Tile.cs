@@ -5,14 +5,7 @@ using UnityEngine;
 public class Tile : MonoBehaviour
 {
     public Cords cords;
-    public bool isValidPosition(BlockGroup blockGroup)
-    {
 
-
-        //check if in blockgroup
-        //check if in grid is empty
-        return true;
-    }
 
     [System.Serializable]
     public struct Cords

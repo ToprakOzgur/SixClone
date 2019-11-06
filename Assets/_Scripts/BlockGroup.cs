@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using System.Linq;
 public class BlockGroup
 {
     private Queue<Block> blocks = new Queue<Block>();
@@ -17,20 +17,20 @@ public class BlockGroup
 
     }
 
-    public void GenerateBlockGroup()
+    public Queue<Block> GenerateBlockGroup()
     {
         for (int i = 0; i < width; i++)
         {
             for (int j = 0; j < height; j++)
             {
+
                 if (!grid[i, j])
                 {
                     //find all suitable blocks
-                    var suitableBlocks = FindAllSuitableBlockAtPoint();
-
+                    var suitableBlocks = FindAllSuitableBlocksAtPoint((i, j));
                     //randomly select one
                     var selectedBlock = SelectOneSuitableBlock(suitableBlocks);
-
+                    SpawnManager.Instance.PlaceBlock(selectedBlock, new Vector3((float)i / 2, -(float)j / 2));
                     //Add new block to Queue
                     blocks.Enqueue(selectedBlock);
 
@@ -39,17 +39,23 @@ public class BlockGroup
                 }
             }
         }
+
+        return blocks;
     }
 
 
-    private Block[] FindAllSuitableBlockAtPoint()
+    private List<Block> FindAllSuitableBlocksAtPoint((int, int) gridIndex)
     {
-        return null;
+        var suitableBlocks = new List<Block>();
+        var blocks = SpawnManager.Instance.allBlocks.Where(x => x.isValid(gridIndex, grid));
+        suitableBlocks.AddRange(blocks);
+
+        return suitableBlocks;
     }
 
-    private Block SelectOneSuitableBlock(Block[] suitableBlocks)
+    private Block SelectOneSuitableBlock(List<Block> suitableBlocks)
     {
-        var selectedBlockIndex = UnityEngine.Random.Range(0, suitableBlocks.Length);
+        var selectedBlockIndex = UnityEngine.Random.Range(0, suitableBlocks.Count);
         var selectedBlock = suitableBlocks[selectedBlockIndex];
         return selectedBlock;
     }
