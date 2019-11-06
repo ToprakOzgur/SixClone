@@ -44,9 +44,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0154980f448964d9089c03c60d523280, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size:
-    width: 1
-    height: 3
+  tiles:
+  - {fileID: 347873296838103360}
+  - {fileID: 3851331388368086913}
+  - {fileID: 581718245878126330}
+  - {fileID: 4347241672605280416}
+  - {fileID: 6740528416084426156}
 --- !u!1 &3718691752044391258
 GameObject:
   m_ObjectHideFlags: 0
@@ -245,6 +248,7 @@ GameObject:
   m_Component:
   - component: {fileID: 45869577126305559}
   - component: {fileID: 4199516153384830269}
+  - component: {fileID: 347873296838103360}
   m_Layer: 0
   m_Name: Collider1 (4)
   m_TagString: Untagged
@@ -292,6 +296,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.52084213, y: 0.52551216}
   m_EdgeRadius: 0
+--- !u!114 &347873296838103360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4172347156456810669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dc36794a68244dddbdcb30d54865c33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6587985885933941099
 GameObject:
   m_ObjectHideFlags: 0
@@ -302,6 +318,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6587985885933941076}
   - component: {fileID: 6587985885933941077}
+  - component: {fileID: 3851331388368086913}
   m_Layer: 0
   m_Name: Collider1 (5)
   m_TagString: Untagged
@@ -349,6 +366,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.49837208, y: 0.527059}
   m_EdgeRadius: 0
+--- !u!114 &3851331388368086913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6587985885933941099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dc36794a68244dddbdcb30d54865c33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6587985885976254014
 GameObject:
   m_ObjectHideFlags: 0
@@ -359,6 +388,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6587985885976254015}
   - component: {fileID: 6587985885976254008}
+  - component: {fileID: 6740528416084426156}
   m_Layer: 0
   m_Name: Collider1 (8)
   m_TagString: Untagged
@@ -406,6 +436,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.526752, y: 0.4956907}
   m_EdgeRadius: 0
+--- !u!114 &6740528416084426156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6587985885976254014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dc36794a68244dddbdcb30d54865c33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6587985886278742549
 GameObject:
   m_ObjectHideFlags: 0
@@ -416,6 +458,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6587985886278742550}
   - component: {fileID: 6587985886278742551}
+  - component: {fileID: 4347241672605280416}
   m_Layer: 0
   m_Name: Collider1 (7)
   m_TagString: Untagged
@@ -463,6 +506,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5255067, y: 0.52702695}
   m_EdgeRadius: 0
+--- !u!114 &4347241672605280416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6587985886278742549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dc36794a68244dddbdcb30d54865c33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6587985886841644950
 GameObject:
   m_ObjectHideFlags: 0
@@ -473,6 +528,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6587985886841644951}
   - component: {fileID: 6587985886841644944}
+  - component: {fileID: 581718245878126330}
   m_Layer: 0
   m_Name: Collider1 (6)
   m_TagString: Untagged
@@ -520,3 +576,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.52587914, y: 0.49170738}
   m_EdgeRadius: 0
+--- !u!114 &581718245878126330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6587985886841644950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dc36794a68244dddbdcb30d54865c33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
