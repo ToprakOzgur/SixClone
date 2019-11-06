@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 7770870740965526720, guid: 7e457e6bf9e824d2886e27418f1fa293,
         type: 3}
       propertyPath: m_Name
-      value: Shape_L1_270
+      value: Block_L1_270
       objectReference: {fileID: 0}
     - target: {fileID: 5823337682383215657, guid: 7e457e6bf9e824d2886e27418f1fa293,
         type: 3}
@@ -116,6 +116,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[2].y
       value: 0.518887
+      objectReference: {fileID: 0}
+    - target: {fileID: 3800357385067226765, guid: 7e457e6bf9e824d2886e27418f1fa293,
+        type: 3}
+      propertyPath: cords.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3800357385067226765, guid: 7e457e6bf9e824d2886e27418f1fa293,
+        type: 3}
+      propertyPath: cords.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8195903875481401197, guid: 7e457e6bf9e824d2886e27418f1fa293,
+        type: 3}
+      propertyPath: cords.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8195903875481401197, guid: 7e457e6bf9e824d2886e27418f1fa293,
+        type: 3}
+      propertyPath: cords.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e457e6bf9e824d2886e27418f1fa293, type: 3}

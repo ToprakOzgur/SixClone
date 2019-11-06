@@ -7,11 +7,11 @@ public class BlockGroup
     public int height { get; private set; }
     private const int width = 5;
 
-    private int[,] grid;
+    private bool[,] grid;
     public BlockGroup(int height)
     {
         this.height = height;
-        grid = new int[width, height];
+        grid = new bool[width, height];
 
     }
 

@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 7770870740965526720, guid: 7e457e6bf9e824d2886e27418f1fa293,
         type: 3}
       propertyPath: m_Name
-      value: Shape_L1_90
+      value: Block_L1_90
       objectReference: {fileID: 0}
     - target: {fileID: 5823337682383215657, guid: 7e457e6bf9e824d2886e27418f1fa293,
         type: 3}
@@ -86,6 +86,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1185913874235598413, guid: 7e457e6bf9e824d2886e27418f1fa293,
+        type: 3}
+      propertyPath: cords.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1185913874235598413, guid: 7e457e6bf9e824d2886e27418f1fa293,
+        type: 3}
+      propertyPath: cords.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8195903875481401197, guid: 7e457e6bf9e824d2886e27418f1fa293,
+        type: 3}
+      propertyPath: cords.x
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e457e6bf9e824d2886e27418f1fa293, type: 3}

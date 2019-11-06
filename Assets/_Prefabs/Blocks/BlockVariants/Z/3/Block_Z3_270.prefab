@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 2990604399289905192, guid: eebb76e9437d2405196995cf5388fded,
         type: 3}
       propertyPath: m_Name
-      value: Shape_Z3_270
+      value: Block_Z3_270
       objectReference: {fileID: 0}
     - target: {fileID: 1335257759662612673, guid: eebb76e9437d2405196995cf5388fded,
         type: 3}
@@ -231,6 +231,51 @@ PrefabInstance:
         type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[11].y
       value: 1.0140034
+      objectReference: {fileID: 0}
+    - target: {fileID: 581718245878126330, guid: eebb76e9437d2405196995cf5388fded,
+        type: 3}
+      propertyPath: cords.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 581718245878126330, guid: eebb76e9437d2405196995cf5388fded,
+        type: 3}
+      propertyPath: cords.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4347241672605280416, guid: eebb76e9437d2405196995cf5388fded,
+        type: 3}
+      propertyPath: cords.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4347241672605280416, guid: eebb76e9437d2405196995cf5388fded,
+        type: 3}
+      propertyPath: cords.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 347873296838103360, guid: eebb76e9437d2405196995cf5388fded,
+        type: 3}
+      propertyPath: cords.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 347873296838103360, guid: eebb76e9437d2405196995cf5388fded,
+        type: 3}
+      propertyPath: cords.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3851331388368086913, guid: eebb76e9437d2405196995cf5388fded,
+        type: 3}
+      propertyPath: cords.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6740528416084426156, guid: eebb76e9437d2405196995cf5388fded,
+        type: 3}
+      propertyPath: cords.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6740528416084426156, guid: eebb76e9437d2405196995cf5388fded,
+        type: 3}
+      propertyPath: cords.y
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eebb76e9437d2405196995cf5388fded, type: 3}

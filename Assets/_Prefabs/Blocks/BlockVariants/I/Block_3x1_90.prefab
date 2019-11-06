@@ -122,5 +122,25 @@ PrefabInstance:
       propertyPath: size.height
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 2223410018328734002, guid: 9c2ed2cc38e8544a4a10d98a49a9a9f5,
+        type: 3}
+      propertyPath: cords.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3775971079823243808, guid: 9c2ed2cc38e8544a4a10d98a49a9a9f5,
+        type: 3}
+      propertyPath: cords.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3775971079823243808, guid: 9c2ed2cc38e8544a4a10d98a49a9a9f5,
+        type: 3}
+      propertyPath: cords.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805106775061805592, guid: 9c2ed2cc38e8544a4a10d98a49a9a9f5,
+        type: 3}
+      propertyPath: cords.x
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c2ed2cc38e8544a4a10d98a49a9a9f5, type: 3}
