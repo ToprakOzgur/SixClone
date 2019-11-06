@@ -64,7 +64,7 @@ public class BlockGroup
     {
         foreach (var tile in block.tiles)
         {
-
+            Debug.Log((gridIndex.Item1 + tile.cords.x).ToString() + " , " + (gridIndex.Item2 + tile.cords.y).ToString() + " full");
             grid[gridIndex.Item1 + tile.cords.x, gridIndex.Item2 + tile.cords.y] = true;
         }
     }

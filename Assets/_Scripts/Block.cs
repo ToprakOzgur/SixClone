@@ -8,6 +8,11 @@ public class Block : MonoBehaviour
 
     public bool isValid((int, int) gridIndex, bool[,] grid)
     {
+        if (gridIndex.Item1 == 4)
+        {
+            Debug.Log("x dort");
+        }
+
         foreach (var tile in tiles)
         {
 

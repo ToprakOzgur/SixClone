@@ -5,6 +5,7 @@ using UnityEngine;
 public class SpawnManager : MonoBehaviour
 {
     public Block[] allBlocks;
+
     public static SpawnManager Instance;
     private void Awake()
     {
@@ -13,7 +14,7 @@ public class SpawnManager : MonoBehaviour
 
     private void Start()
     {
-        BlockGroup blockGroup = new BlockGroup(4);
+        BlockGroup blockGroup = new BlockGroup(5);
         var blocks = blockGroup.GenerateBlockGroup();
 
         // foreach (var block in blocks)
@@ -26,7 +27,7 @@ public class SpawnManager : MonoBehaviour
     public void PlaceBlock(Block block, Vector3 pos)
     {
 
-        var newBlock = Instantiate(block.gameObject, pos, Quaternion.identity);
+        var newBlock = Instantiate(block.gameObject, pos, block.transform.rotation);
         newBlock.gameObject.GetComponentInChildren<Rigidbody2D>().isKinematic = true;
     }
 }
