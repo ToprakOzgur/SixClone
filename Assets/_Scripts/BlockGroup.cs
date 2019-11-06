@@ -30,7 +30,7 @@ public class BlockGroup
                     var suitableBlocks = FindAllSuitableBlocksAtPoint((i, j));
                     //randomly select one
                     var selectedBlock = SelectOneSuitableBlock(suitableBlocks);
-                    SpawnManager.Instance.PlaceBlock(selectedBlock, new Vector3((float)i / 2, -(float)j / 2));
+                    SpawnManager.Instance.PlaceBlock(selectedBlock, new Vector3((float)i / 2 - 0.99f, -(float)j / 2.0f - 0.01f));
                     //Add new block to Queue
                     blocks.Enqueue(selectedBlock);
 

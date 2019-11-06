@@ -97,10 +97,15 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3718691752044391204, guid: eebb76e9437d2405196995cf5388fded,
+        type: 3}
+      propertyPath: m_Mass
+      value: 1.2634544
+      objectReference: {fileID: 0}
     - target: {fileID: 1622191665563226480, guid: eebb76e9437d2405196995cf5388fded,
         type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.size
-      value: 12
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1622191665563226480, guid: eebb76e9437d2405196995cf5388fded,
         type: 3}
@@ -130,92 +135,92 @@ PrefabInstance:
     - target: {fileID: 1622191665563226480, guid: eebb76e9437d2405196995cf5388fded,
         type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].y
-      value: 0.000989
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1622191665563226480, guid: eebb76e9437d2405196995cf5388fded,
         type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[1].x
-      value: 0.5258791
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1622191665563226480, guid: eebb76e9437d2405196995cf5388fded,
         type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[1].y
-      value: 0.000989
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1622191665563226480, guid: eebb76e9437d2405196995cf5388fded,
         type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[2].x
-      value: 0.5258791
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1622191665563226480, guid: eebb76e9437d2405196995cf5388fded,
         type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[2].y
-      value: 0.4869444
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1622191665563226480, guid: eebb76e9437d2405196995cf5388fded,
         type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[3].x
-      value: 1.0115088
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 1622191665563226480, guid: eebb76e9437d2405196995cf5388fded,
         type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[3].y
-      value: 0.4869444
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1622191665563226480, guid: eebb76e9437d2405196995cf5388fded,
         type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[4].x
-      value: 1.0115088
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 1622191665563226480, guid: eebb76e9437d2405196995cf5388fded,
         type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[4].y
-      value: 0.48697641
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1622191665563226480, guid: eebb76e9437d2405196995cf5388fded,
         type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[5].x
-      value: 1.4996866
+      value: 1.4996865
       objectReference: {fileID: 0}
     - target: {fileID: 1622191665563226480, guid: eebb76e9437d2405196995cf5388fded,
         type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[5].y
-      value: 0.48697641
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1622191665563226480, guid: eebb76e9437d2405196995cf5388fded,
         type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[6].x
-      value: 1.4996866
+      value: 1.4996865
       objectReference: {fileID: 0}
     - target: {fileID: 1622191665563226480, guid: eebb76e9437d2405196995cf5388fded,
         type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[6].y
-      value: 1.0140034
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 1622191665563226480, guid: eebb76e9437d2405196995cf5388fded,
         type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[7].x
-      value: 1.4996865
+      value: 0.9729345
       objectReference: {fileID: 0}
     - target: {fileID: 1622191665563226480, guid: eebb76e9437d2405196995cf5388fded,
         type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[7].y
-      value: 1.0140034
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 1622191665563226480, guid: eebb76e9437d2405196995cf5388fded,
         type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[8].x
-      value: 1.4996865
+      value: 0.9729345
       objectReference: {fileID: 0}
     - target: {fileID: 1622191665563226480, guid: eebb76e9437d2405196995cf5388fded,
         type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[8].y
-      value: 1.4997212
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1622191665563226480, guid: eebb76e9437d2405196995cf5388fded,
         type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[9].x
-      value: 0.9729345
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1622191665563226480, guid: eebb76e9437d2405196995cf5388fded,
         type: 3}
@@ -231,6 +236,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[11].y
       value: 1.0140034
+      objectReference: {fileID: 0}
+    - target: {fileID: 1622191665563226480, guid: eebb76e9437d2405196995cf5388fded,
+        type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[9].y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1622191665563226480, guid: eebb76e9437d2405196995cf5388fded,
+        type: 3}
+      propertyPath: m_VertexDistance
+      value: 0.36
       objectReference: {fileID: 0}
     - target: {fileID: 581718245878126330, guid: eebb76e9437d2405196995cf5388fded,
         type: 3}

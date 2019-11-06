@@ -28,6 +28,6 @@ public class SpawnManager : MonoBehaviour
     {
 
         var newBlock = Instantiate(block.gameObject, pos, block.transform.rotation);
-        newBlock.gameObject.GetComponentInChildren<Rigidbody2D>().isKinematic = true;
+        //  newBlock.gameObject.GetComponentInChildren<Rigidbody2D>().isKinematic = true;
     }
 }

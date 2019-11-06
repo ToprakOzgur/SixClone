@@ -624,6 +624,11 @@ PrefabInstance:
       propertyPath: m_ColliderPaths.Array.data[3].m_ColliderPaths.Array.data[0].Array.data[2].X
       value: 15000000
       objectReference: {fileID: 0}
+    - target: {fileID: 74849369825512327, guid: a5e7d8349f3bf4b5182bbb2b457adb7e,
+        type: 3}
+      propertyPath: m_GeometryType
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5e7d8349f3bf4b5182bbb2b457adb7e, type: 3}
 --- !u!4 &1838023764931117822 stripped
