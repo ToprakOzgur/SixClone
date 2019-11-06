@@ -71,8 +71,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cords:
-    x: 1
-    y: 2
+    x: 0
+    y: 1
 --- !u!1 &7172292472680486321
 GameObject:
   m_ObjectHideFlags: 0
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cords:
     x: -1
-    y: 2
+    y: 1
 --- !u!1 &7770870740965526720
 GameObject:
   m_ObjectHideFlags: 0
@@ -427,5 +427,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cords:
-    x: 1
-    y: 1
+    x: 0
+    y: 0

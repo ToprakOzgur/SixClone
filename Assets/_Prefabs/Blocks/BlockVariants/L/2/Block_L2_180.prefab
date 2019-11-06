@@ -300,12 +300,12 @@ PrefabInstance:
     - target: {fileID: 4444160825332295883, guid: 7cf868c86512c4bf29a12d6581e372f2,
         type: 3}
       propertyPath: cords.y
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6152972098433151775, guid: 7cf868c86512c4bf29a12d6581e372f2,
         type: 3}
       propertyPath: cords.y
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4536380562778590556, guid: 7cf868c86512c4bf29a12d6581e372f2,
         type: 3}
@@ -315,12 +315,12 @@ PrefabInstance:
     - target: {fileID: 4536380562778590556, guid: 7cf868c86512c4bf29a12d6581e372f2,
         type: 3}
       propertyPath: cords.y
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6619508181779169080, guid: 7cf868c86512c4bf29a12d6581e372f2,
         type: 3}
       propertyPath: cords.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cf868c86512c4bf29a12d6581e372f2, type: 3}

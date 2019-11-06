@@ -71,8 +71,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cords:
-    x: 2
-    y: 1
+    x: 1
+    y: 0
 --- !u!1 &5589701050109423648
 GameObject:
   m_ObjectHideFlags: 0
@@ -144,8 +144,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cords:
-    x: 3
-    y: 1
+    x: 2
+    y: 0
 --- !u!1 &5894949103020596123
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,8 +217,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cords:
-    x: 4
-    y: 1
+    x: 3
+    y: 0
 --- !u!1001 &2591999869134514320
 PrefabInstance:
   m_ObjectHideFlags: 0

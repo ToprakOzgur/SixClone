@@ -110,42 +110,42 @@ PrefabInstance:
     - target: {fileID: 7710674746278423871, guid: d30ecafa569b54e97b24fbe06f649dc3,
         type: 3}
       propertyPath: cords.y
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5541759116898179979, guid: d30ecafa569b54e97b24fbe06f649dc3,
-        type: 3}
-      propertyPath: cords.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5541759116898179979, guid: d30ecafa569b54e97b24fbe06f649dc3,
-        type: 3}
-      propertyPath: cords.y
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 3893182633992170318, guid: d30ecafa569b54e97b24fbe06f649dc3,
+    - target: {fileID: 5541759116898179979, guid: d30ecafa569b54e97b24fbe06f649dc3,
         type: 3}
       propertyPath: cords.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3893182633992170318, guid: d30ecafa569b54e97b24fbe06f649dc3,
+    - target: {fileID: 5541759116898179979, guid: d30ecafa569b54e97b24fbe06f649dc3,
         type: 3}
       propertyPath: cords.y
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 4171338679153386530, guid: d30ecafa569b54e97b24fbe06f649dc3,
+    - target: {fileID: 3893182633992170318, guid: d30ecafa569b54e97b24fbe06f649dc3,
         type: 3}
       propertyPath: cords.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4171338679153386530, guid: d30ecafa569b54e97b24fbe06f649dc3,
+    - target: {fileID: 3893182633992170318, guid: d30ecafa569b54e97b24fbe06f649dc3,
         type: 3}
       propertyPath: cords.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4171338679153386530, guid: d30ecafa569b54e97b24fbe06f649dc3,
+        type: 3}
+      propertyPath: cords.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4171338679153386530, guid: d30ecafa569b54e97b24fbe06f649dc3,
+        type: 3}
+      propertyPath: cords.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7448133270599597453, guid: d30ecafa569b54e97b24fbe06f649dc3,
         type: 3}
       propertyPath: cords.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d30ecafa569b54e97b24fbe06f649dc3, type: 3}

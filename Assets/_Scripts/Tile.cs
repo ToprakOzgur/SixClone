@@ -5,19 +5,13 @@ using UnityEngine;
 public class Tile : MonoBehaviour
 {
     public Cords cords;
-    public bool isPositionValid(BlockGroup blockGroup, Vector3 parentPositon)
+    public bool isValidPosition(BlockGroup blockGroup)
     {
 
 
         //check if in blockgroup
         //check if in grid is empty
         return true;
-    }
-
-    public (int, int) GetCurrentGridAtPosition(bool[,] grid, Vector2 pos)
-    {
-
-        return (0, 0);
     }
 
     [System.Serializable]

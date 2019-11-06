@@ -260,37 +260,37 @@ PrefabInstance:
     - target: {fileID: 6120082963249900806, guid: 8fdd90e7bd77043dd9074dd6e984f08e,
         type: 3}
       propertyPath: cords.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6228019535398090756, guid: 8fdd90e7bd77043dd9074dd6e984f08e,
         type: 3}
       propertyPath: cords.x
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4495401801657858397, guid: 8fdd90e7bd77043dd9074dd6e984f08e,
         type: 3}
       propertyPath: cords.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6790501276752098111, guid: 8fdd90e7bd77043dd9074dd6e984f08e,
         type: 3}
       propertyPath: cords.x
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6790501276752098111, guid: 8fdd90e7bd77043dd9074dd6e984f08e,
         type: 3}
       propertyPath: cords.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2790231334001444798, guid: 8fdd90e7bd77043dd9074dd6e984f08e,
         type: 3}
       propertyPath: cords.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2790231334001444798, guid: 8fdd90e7bd77043dd9074dd6e984f08e,
         type: 3}
       propertyPath: cords.y
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8fdd90e7bd77043dd9074dd6e984f08e, type: 3}

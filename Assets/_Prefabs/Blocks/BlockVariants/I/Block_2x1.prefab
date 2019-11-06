@@ -71,8 +71,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cords:
-    x: 2
-    y: 1
+    x: 1
+    y: 0
 --- !u!1001 &2904471202948605046
 PrefabInstance:
   m_ObjectHideFlags: 0

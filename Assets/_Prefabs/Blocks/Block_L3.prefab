@@ -71,8 +71,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cords:
-    x: 3
-    y: 3
+    x: 2
+    y: 2
 --- !u!1 &953032679779954104
 GameObject:
   m_ObjectHideFlags: 0
@@ -380,8 +380,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cords:
-    x: 1
-    y: 3
+    x: 0
+    y: 2
 --- !u!1 &3183463789706067955
 GameObject:
   m_ObjectHideFlags: 0
@@ -453,8 +453,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cords:
-    x: 1
-    y: 1
+    x: 0
+    y: 0
 --- !u!1 &3439837522768717807
 GameObject:
   m_ObjectHideFlags: 0
@@ -526,8 +526,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cords:
-    x: 1
-    y: 2
+    x: 0
+    y: 1
 --- !u!1 &8948959017721476995
 GameObject:
   m_ObjectHideFlags: 0
@@ -599,5 +599,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cords:
-    x: 2
-    y: 3
+    x: 1
+    y: 2

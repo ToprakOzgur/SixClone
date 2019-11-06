@@ -365,17 +365,17 @@ PrefabInstance:
     - target: {fileID: 6967305961744411522, guid: 8eef33e5a711c4b888719f2790db8cd5,
         type: 3}
       propertyPath: cords.y
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7325884563237459928, guid: 8eef33e5a711c4b888719f2790db8cd5,
         type: 3}
       propertyPath: cords.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7325884563237459928, guid: 8eef33e5a711c4b888719f2790db8cd5,
         type: 3}
       propertyPath: cords.y
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4240716072975604700, guid: 8eef33e5a711c4b888719f2790db8cd5,
         type: 3}
