@@ -5,13 +5,6 @@ using UnityEngine;
 public class SpawnManager : MonoBehaviour
 {
     public Block[] allBlocks;
-
-    public static SpawnManager Instance;
-    private void Awake()
-    {
-        Instance = this;
-    }
-
     private void Start()
     {
         BlockGroup blockGroup = new BlockGroup(5);

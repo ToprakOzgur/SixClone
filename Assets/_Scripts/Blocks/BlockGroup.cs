@@ -30,7 +30,7 @@ public class BlockGroup
                     var suitableBlocks = FindAllSuitableBlocksAtPoint((i, j));
                     //randomly select one
                     var selectedBlock = SelectOneSuitableBlock(suitableBlocks);
-                    SpawnManager.Instance.PlaceBlock(selectedBlock, new Vector3((float)i / 2 - 0.99f, -(float)j / 2.0f - 0.01f));
+                    Managers.Spawner.PlaceBlock(selectedBlock, new Vector3((float)i / 2 - 1.24f, -(float)j / 2.0f - 0.01f));
                     //Add new block to Queue
                     blocks.Enqueue(selectedBlock);
 
@@ -47,7 +47,7 @@ public class BlockGroup
     private List<Block> FindAllSuitableBlocksAtPoint((int, int) gridIndex)
     {
         var suitableBlocks = new List<Block>();
-        var blocks = SpawnManager.Instance.allBlocks.Where(x => x.isValid(gridIndex, grid));
+        var blocks = Managers.Spawner.allBlocks.Where(x => x.isValid(gridIndex, grid));
         suitableBlocks.AddRange(blocks);
 
         return suitableBlocks;
@@ -64,7 +64,7 @@ public class BlockGroup
     {
         foreach (var tile in block.tiles)
         {
-            Debug.Log((gridIndex.Item1 + tile.cords.x).ToString() + " , " + (gridIndex.Item2 + tile.cords.y).ToString() + " full");
+
             grid[gridIndex.Item1 + tile.cords.x, gridIndex.Item2 + tile.cords.y] = true;
         }
     }
