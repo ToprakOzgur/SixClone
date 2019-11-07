@@ -8,7 +8,11 @@ public class GamePlayAreaController : MonoBehaviour
     public static event Action OnPlayerDied = delegate { };
     private void OnTriggerEnter2D(Collider2D other)
     {
-        OnPlayerDied();
+        if (other.CompareTag("Player"))
+        {
+            OnPlayerDied();
+        }
+
     }
 
 }

@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 4213498732243397231}
   - component: {fileID: 4213498732243397228}
   - component: {fileID: 74849369825512327}
+  - component: {fileID: 8539810641149293569}
   m_Layer: 0
   m_Name: BaseBlockPrefab
   m_TagString: Untagged
@@ -209,14 +210,14 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4213498732243397138}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
   m_Mass: 0.25
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0.5
   m_Material: {fileID: 6200000, guid: 1426813eb9ad7447a9f36a303f6356bf, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -243,3 +244,15 @@ CompositeCollider2D:
   m_CompositePaths:
     m_Paths: []
   m_VertexDistance: 0.0005
+--- !u!114 &8539810641149293569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4213498732243397138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3ae3b28a2c964464af26e371778bf7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4697001289649884560}
   - component: {fileID: 4697001289649884563}
   - component: {fileID: 7221316403236386759}
+  - component: {fileID: 45948490112255275}
   m_Layer: 0
   m_Name: Shape_L2
   m_TagString: Untagged
@@ -100,11 +101,11 @@ Rigidbody2D:
   m_Mass: 1.0198103
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0.5
   m_Material: {fileID: 6200000, guid: 1426813eb9ad7447a9f36a303f6356bf, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 1
+  m_CollisionDetection: 0
   m_Constraints: 0
 --- !u!66 &7221316403236386759
 CompositeCollider2D:
@@ -175,6 +176,18 @@ CompositeCollider2D:
       - {x: 0.5, y: 0.4801897}
       - {x: 1.5, y: 0.4801897}
   m_VertexDistance: 0.0005
+--- !u!114 &45948490112255275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4697001289649884653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3ae3b28a2c964464af26e371778bf7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4883248153084849513
 GameObject:
   m_ObjectHideFlags: 0

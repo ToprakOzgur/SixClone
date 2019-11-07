@@ -5,7 +5,8 @@ using UnityEngine;
 using System.Linq;
 public class BlockGroup
 {
-    private Queue<Block> blocks = new Queue<Block>();
+
+    public List<GameObject> blocks = new List<GameObject>();
     public int height { get; private set; }
     private const int width = 5;
     private bool[,] grid;
@@ -17,7 +18,7 @@ public class BlockGroup
 
     }
 
-    public Queue<Block> GenerateBlockGroup()
+    public List<GameObject> GenerateBlockGroup(float yPos)
     {
         for (int i = 0; i < width; i++)
         {
@@ -30,9 +31,10 @@ public class BlockGroup
                     var suitableBlocks = FindAllSuitableBlocksAtPoint((i, j));
                     //randomly select one
                     var selectedBlock = SelectOneSuitableBlock(suitableBlocks);
-                    Managers.Spawner.PlaceBlock(selectedBlock, new Vector3((float)i / 2 - 1.24f, -(float)j / 2.0f - 0.01f));
-                    //Add new block to Queue
-                    blocks.Enqueue(selectedBlock);
+
+                    var blockGameobject = Managers.Spawner.PlaceBlock(selectedBlock, yPos, new Vector3((float)i / 2 - 1.26f, -(float)j / 2.0f + 0.01f));
+                    //Add new block to list
+                    blocks.Add(blockGameobject);
 
                     //register all new tiles to grid
                     RegisterBlockTilesToGrid((i, j), selectedBlock);

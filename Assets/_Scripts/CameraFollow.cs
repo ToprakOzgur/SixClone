@@ -5,7 +5,7 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour
 {
     [SerializeField] private Transform target;
-    private bool isfollowing = true;
+    public bool isfollowing = false;
 
     private void OnEnable()
     {
