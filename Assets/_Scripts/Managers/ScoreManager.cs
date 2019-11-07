@@ -14,6 +14,7 @@ public class ScoreManager : MonoBehaviour
         set
         {
             gameScore = value;
+            Managers.UI.scoreText.text = gameScore.ToString();
 
             if (value > HighScore)
             {
@@ -32,14 +33,14 @@ public class ScoreManager : MonoBehaviour
         set
         {
             highScore = value;
-            PlayerPrefs.SetInt("highscore", value);
-
+            Managers.UI.highScoreText.text = highScore.ToString();
+            PlayerPrefs.SetInt("highscore", highScore);
         }
     }
 
     private void Awake()
     {
-        highScore = PlayerPrefs.GetInt("highscore", 0);
+        HighScore = PlayerPrefs.GetInt("highscore", 0);
         GameScore = 0;
     }
 
