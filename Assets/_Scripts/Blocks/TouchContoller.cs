@@ -8,6 +8,7 @@ public class TouchContoller : MonoBehaviour
     private void OnMouseDown()
     {
         transform.parent.gameObject.SetActive(false);
+        Managers.Score.GameScore += 5;
         isPlayerStartedToTouch = true;
     }
 }

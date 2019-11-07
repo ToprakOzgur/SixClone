@@ -11,6 +11,7 @@ public class GameOverState : BaseState
     {
         OnPlayerDied();
         Managers.Game.isGameplayActive = false;
+        PlayerPrefs.Save();
 
     }
 
