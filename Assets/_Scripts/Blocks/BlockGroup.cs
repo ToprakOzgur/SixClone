@@ -20,6 +20,7 @@ public class BlockGroup
 
     public List<GameObject> GenerateBlockGroup(float yPos)
     {
+        var blockColor = Managers.Color.GetRandomColor();
         for (int i = 0; i < width; i++)
         {
             for (int j = 0; j < height; j++)
@@ -33,6 +34,7 @@ public class BlockGroup
                     var selectedBlock = SelectOneSuitableBlock(suitableBlocks);
 
                     var blockGameobject = Managers.Spawner.PlaceBlock(selectedBlock, yPos, new Vector3((float)i / 2 - 1.26f, -(float)j / 2.0f + 0.01f));
+                    blockGameobject.GetComponentInChildren<SpriteRenderer>().color = blockColor;
                     //Add new block to list
                     blocks.Add(blockGameobject);
 

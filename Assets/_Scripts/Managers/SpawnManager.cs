@@ -12,19 +12,19 @@ public class SpawnManager : MonoBehaviour
     private void Start()
     {
         //for visually distrubute of BlockGroup height
-        var heights = IntegerRandomSeperator.RandomlySeperate(10);
-        foreach (var height in heights)
-        {
-            GenerateBlockGroup(height);
-            Debug.Log(height);
-        }
+        GenerateBlockGroup(10);
     }
 
     private void GenerateBlockGroup(int height)
     {
-        BlockGroup blockGroup = new BlockGroup(height);
-        blockGroupsQueue.Enqueue(blockGroup.GenerateBlockGroup(currentSpawnPoint));
-        currentSpawnPoint += (float)height / 2.0f;
+        var heights = IntegerRandomSeperator.RandomlySeperate(10);
+        foreach (var h in heights)
+        {
+            BlockGroup blockGroup = new BlockGroup(h);
+            blockGroupsQueue.Enqueue(blockGroup.GenerateBlockGroup(currentSpawnPoint));
+            currentSpawnPoint += (float)h / 2.0f;
+            Debug.Log(h);
+        }
 
     }
 

@@ -12,7 +12,7 @@ public class IntegerRandomSeperator
         var total = 0;
 
         //%33 probability for  5 
-        if (UnityEngine.Random.Range(1, 4) < 2)
+        if (UnityEngine.Random.Range(1, 4) < 2 && number > 5)
         {
             total = 5;
             numbers.Add(5);
@@ -20,7 +20,6 @@ public class IntegerRandomSeperator
 
         while (total != 10)
         {
-
             var rndm = UnityEngine.Random.Range(1, number - total + 1);
             total += rndm;
             numbers.Add(rndm);

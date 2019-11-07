@@ -561,6 +561,7 @@ GameObject:
   - component: {fileID: 2064211587}
   - component: {fileID: 2064211586}
   - component: {fileID: 2064211585}
+  - component: {fileID: 2064211591}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -691,6 +692,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0ec306fb651044ceb2eff8cb90d8533, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2064211591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2064211583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc5e643e1b5f74c62aef261ff2b3b22b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockColors:
+  - {r: 0.4862745, g: 0.039215688, b: 0.007843138, a: 1}
+  - {r: 0.23529412, g: 0.25882354, b: 0.27058825, a: 1}
+  - {r: 0.8862745, g: 0.34509805, b: 0.13333334, a: 1}
+  - {r: 0.94509804, g: 0.7372549, b: 0.19215687, a: 1}
+  - {r: 0.9254902, g: 0.9882353, b: 1, a: 1}
+  - {r: 0.69803923, g: 0.9882353, b: 1, a: 1}
+  - {r: 0.36862746, g: 0.8745098, b: 1, a: 1}
+  - {r: 0.24313726, g: 0.39215687, b: 1, a: 1}
+  - {r: 0.078431375, g: 0.5254902, b: 0.54901963, a: 1}
+  - {r: 0.44313726, g: 0.5686275, b: 0.57254905, a: 1}
 --- !u!1 &2112034427
 GameObject:
   m_ObjectHideFlags: 3
