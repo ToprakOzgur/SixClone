@@ -6,7 +6,7 @@ using System;
 
 public class GameManager : MonoBehaviour
 {
-
+    [HideInInspector] public bool isGameplayActive;
     private BaseState currentState;
     public BaseState CurrentState
     {
@@ -23,14 +23,16 @@ public class GameManager : MonoBehaviour
 
         currentState = GetComponentInChildren(newStateType) as BaseState;
 
-
         if (currentState != null)
         {
-            Debug.Log("girdi");
             currentState.OnActivate();
         }
     }
 
+    private void Start()
+    {
+        SetState(typeof(GamePlayState));
+    }
     void Update()
     {
         if (currentState != null)

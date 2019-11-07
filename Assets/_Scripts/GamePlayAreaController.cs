@@ -5,12 +5,13 @@ using UnityEngine;
 
 public class GamePlayAreaController : MonoBehaviour
 {
-    public static event Action OnPlayerDied = delegate { };
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            OnPlayerDied();
+
+            Managers.Game.SetState(typeof(GameOverState));
         }
 
     }

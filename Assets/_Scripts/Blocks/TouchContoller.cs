@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class TouchContoller : MonoBehaviour
 {
+    public static bool isPlayerStartedToTouch;
     private void OnMouseDown()
     {
         transform.parent.gameObject.SetActive(false);
+        isPlayerStartedToTouch = true;
     }
 }

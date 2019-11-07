@@ -9,11 +9,11 @@ public class CameraFollow : MonoBehaviour
 
     private void OnEnable()
     {
-        GamePlayAreaController.OnPlayerDied += StopFlollow;
+        GameOverState.OnPlayerDied += StopFlollow;
     }
     private void OnDisable()
     {
-        GamePlayAreaController.OnPlayerDied -= StopFlollow;
+        GameOverState.OnPlayerDied -= StopFlollow;
     }
     private void Update()
     {
@@ -27,7 +27,6 @@ public class CameraFollow : MonoBehaviour
 
     public void StopFlollow()
     {
-        Debug.Log("dead");
         isfollowing = false;
     }
 }

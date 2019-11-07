@@ -112,6 +112,36 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &516463128
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 516463129}
+  m_Layer: 0
+  m_Name: BlockHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &516463129
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516463128}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -226,7 +256,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.453, z: -10}
+  m_LocalPosition: {x: 0, y: -0.54699993, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -376,7 +406,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1169232208}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.453, z: -10}
+  m_LocalPosition: {x: 0, y: -0.54699993, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2112034428}
@@ -520,7 +550,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1552963190}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -5, z: 0}
+  m_LocalPosition: {x: 0, y: -4.24, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -538,7 +568,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5f81747fc7fc482e964648215655ec0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: 5
+  spwanDistance: 5
+  unFreezeDistance: 3
   playerTransform: {fileID: 1882507428}
 --- !u!4 &1882507428 stripped
 Transform:
@@ -620,6 +651,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88d16fec3ed99449597f6c94e21b0413, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  blockHolder: {fileID: 0}
   allBlocks:
   - {fileID: 2051324214863544648, guid: 1a851057743b2431e868745c67c2939a, type: 3}
   - {fileID: 1531414558451556461, guid: 7e457e6bf9e824d2886e27418f1fa293, type: 3}
@@ -692,6 +724,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0ec306fb651044ceb2eff8cb90d8533, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isGameplayActive: 0
 --- !u!114 &2064211591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -766,7 +799,7 @@ MonoBehaviour:
   m_YDamping: 1
   m_ZDamping: 1
   m_ScreenX: 0.5
-  m_ScreenY: 0.5
+  m_ScreenY: 0.4
   m_CameraDistance: 10
   m_DeadZoneWidth: 0
   m_DeadZoneHeight: 0

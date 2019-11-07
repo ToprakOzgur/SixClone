@@ -25,7 +25,6 @@ public class Managers : MonoBehaviour
         Spawner = GetComponent<SpawnManager>();
         Level = GetComponent<LevelManager>();
         Color = GetComponent<ColorManager>();
-
     }
 }
 

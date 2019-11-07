@@ -4,46 +4,55 @@ using UnityEngine;
 
 public class SpawnManager : MonoBehaviour
 {
+    [SerializeField] private Transform blockHolder;
     private Queue<List<GameObject>> blockGroupsQueue = new Queue<List<GameObject>>();
     public Block[] allBlocks;
+
 
     private float currentSpawnPoint;
 
     private void Start()
     {
-        //for visually distrubute of BlockGroup height
+        //startting with 2*10 line 
+        GenerateBlockGroup(10);
         GenerateBlockGroup(10);
     }
 
-    private void GenerateBlockGroup(int height)
+    public void GenerateBlockGroup(int height = 10)
     {
-        var heights = IntegerRandomSeperator.RandomlySeperate(10);
+        var heights = IntegerRandomSeperator.RandomlySeperate(10); //for visually distribution of BlockGroup 
+
         foreach (var h in heights)
         {
             BlockGroup blockGroup = new BlockGroup(h);
             blockGroupsQueue.Enqueue(blockGroup.GenerateBlockGroup(currentSpawnPoint));
             currentSpawnPoint += (float)h / 2.0f;
-            Debug.Log(h);
         }
-
     }
 
     public GameObject PlaceBlock(Block block, float yPos, Vector3 pos)
     {
-        var newBlock = Instantiate(block.gameObject, pos + Vector3.down * yPos, block.transform.rotation);
-
+        var newBlock = Instantiate(block.gameObject, pos + Vector3.down * yPos, block.transform.rotation, blockHolder);
         newBlock.GetComponentInChildren<Rigidbody2D>().isKinematic = true;
-
         return newBlock;
     }
 
     public void UnFreezeCurrentBlockGroup()
     {
-        var currentBlockGroup = blockGroupsQueue.Dequeue();
+        if (!TouchContoller.isPlayerStartedToTouch)
+        {
+            return;
+        }
 
+        var currentBlockGroup = blockGroupsQueue.Dequeue();
         foreach (var block in currentBlockGroup)
         {
             block.GetComponentInChildren<Rigidbody2D>().isKinematic = false;
         }
+    }
+
+    public float GetCurrentBlockStartPoint()
+    {
+        return blockGroupsQueue.Peek()[0].transform.position.y;
     }
 }
