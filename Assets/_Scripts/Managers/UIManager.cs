@@ -11,4 +11,10 @@ public class UIManager : MonoBehaviour
     public GameObject pauseButton;
     public GameObject lastCallText;
     public GameObject menuPanel;
+    public Text collectableCountText;
+
+    public void UpdateCollectableText(int amount)
+    {
+        collectableCountText.text = amount.ToString();
+    }
 }

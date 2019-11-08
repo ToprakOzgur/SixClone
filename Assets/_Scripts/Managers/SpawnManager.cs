@@ -8,15 +8,11 @@ public class SpawnManager : MonoBehaviour
     private Queue<List<GameObject>> blockGroupsQueue = new Queue<List<GameObject>>();
     public Block[] allBlocks;
     public GameObject player;
+    public GameObject collectableArea;
 
     private float currentSpawnPoint;
 
-    // private void Start()
-    // {
-    //     //startting with 2*10 line 
-    //     GenerateBlockGroup(10);
-    //     GenerateBlockGroup(10);
-    // }
+
 
     public void GenerateBlockGroup(int height = 10)
     {
