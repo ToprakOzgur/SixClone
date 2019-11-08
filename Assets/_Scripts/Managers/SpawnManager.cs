@@ -7,16 +7,16 @@ public class SpawnManager : MonoBehaviour
     [SerializeField] private Transform blockHolder;
     private Queue<List<GameObject>> blockGroupsQueue = new Queue<List<GameObject>>();
     public Block[] allBlocks;
-
+    public GameObject player;
 
     private float currentSpawnPoint;
 
-    private void Start()
-    {
-        //startting with 2*10 line 
-        GenerateBlockGroup(10);
-        GenerateBlockGroup(10);
-    }
+    // private void Start()
+    // {
+    //     //startting with 2*10 line 
+    //     GenerateBlockGroup(10);
+    //     GenerateBlockGroup(10);
+    // }
 
     public void GenerateBlockGroup(int height = 10)
     {

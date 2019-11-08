@@ -11,6 +11,7 @@ public class GamePlayState : BaseState
     {
 
         Managers.Game.isGameplayActive = true;
+        Managers.UI.pauseButton.gameObject.SetActive(true);
         OnGamePlayActivated();
     }
 

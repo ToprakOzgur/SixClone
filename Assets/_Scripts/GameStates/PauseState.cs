@@ -9,11 +9,12 @@ public class PauseState : BaseState
     {
         Managers.UI.pausePanel.SetActive(true);
         Managers.Game.isGameplayActive = false;
+        Time.timeScale = 0;
     }
 
     public override void OnDeactivate()
     {
-
+        Time.timeScale = 1;
     }
 
     public override void OnUpdate()

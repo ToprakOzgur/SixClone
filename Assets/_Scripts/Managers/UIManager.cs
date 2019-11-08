@@ -8,5 +8,7 @@ public class UIManager : MonoBehaviour
     public Text scoreText;
     public Text highScoreText;
     public GameObject pausePanel;
+    public GameObject pauseButton;
     public GameObject lastCallText;
+    public GameObject menuPanel;
 }

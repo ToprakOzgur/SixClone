@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 
 public class GameOverState : BaseState
 {
@@ -30,6 +30,8 @@ public class GameOverState : BaseState
         Managers.UI.lastCallText.SetActive(true);
         yield return new WaitForSeconds(3);
         Managers.Game.isGameplayActive = false;
+        yield return new WaitForSeconds(1);
+        ReloadCurrentScene();
     }
 
     private IEnumerator FadeCameraColor()
@@ -46,5 +48,10 @@ public class GameOverState : BaseState
             Camera.main.backgroundColor = Color.Lerp(startColor, endColor, t);
             yield return null;
         }
+    }
+    public void ReloadCurrentScene()
+    {
+        string sceneName = SceneManager.GetActiveScene().name;
+        SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
     }
 }

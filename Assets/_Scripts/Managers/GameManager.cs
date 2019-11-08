@@ -31,7 +31,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        SetState(typeof(GamePlayState));
+        SetState(typeof(MenuState));
     }
     void Update()
     {
